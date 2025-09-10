@@ -7,11 +7,11 @@ public class ErrorDetails {
 	private String message;
 	private String details;
 
-	public ErrorDetails(LocalDateTime timespamp, String message, String details) {
+	public ErrorDetails(LocalDateTime timespamp, String message, String description) {
 		super();
 		this.timespamp = timespamp;
 		this.message = message;
-		this.details = details;
+		this.details = description;
 	}
 
 	public LocalDateTime getTimespamp() {
